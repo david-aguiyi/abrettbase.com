@@ -31,7 +31,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     overflow-x: hidden;
-    background-color: #509844;
+    background-color: #56A9FF;
     scroll-behavior: smooth;
 }
 
@@ -78,7 +78,7 @@ h2 {
 
 .text-linear-primary {
     background: linear-gradient(to right, #18811c 15%, #243e06 50%);
-    background: -webkit-linear-gradient(to right, #083a96 15%, #9dafe1 50%);
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -99,7 +99,7 @@ h2 {
 }
 
 .button-base {
-    border: 1px solid #000000;
+    border: 1.4px solid #000000;
     height: 48px;
     padding: 0 15px;
     color: #000000;
@@ -107,7 +107,6 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -167,7 +166,7 @@ h2 {
 }
 
 .hero-image:before {
-    background: linear-gradient(260deg, #8BC34A 0%, rgba(115, 67, 210, 0) 100%);
+    background: linear-gradient(260deg, #8bc34a00 0%, rgba(115, 67, 210, 0) 100%);
     bottom: 0;
     left: 0;
     width: 120%;
